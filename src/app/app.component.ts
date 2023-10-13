@@ -5,7 +5,7 @@ import { PersonComponent } from './person/person.component';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, PersonComponent],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
