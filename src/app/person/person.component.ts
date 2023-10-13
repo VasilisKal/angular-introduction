@@ -10,4 +10,10 @@ import { CommonModule } from '@angular/common';
 })
 export class PersonComponent {
 
+  person = {
+    givenName: 'Vasilis',
+    surName: 'Kalomenidis',
+    age: 30,
+    email: 'vasiliskalomenidis#gmail.com'
+}
 }
