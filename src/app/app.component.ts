@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { PersonComponent } from './person/person.component';
 
 @Component({
   selector: 'app-root',
@@ -11,4 +12,10 @@ import { CommonModule } from '@angular/common';
 export class AppComponent {
   name: string = "Vasilis";
   lastname = "Kalomenidis"
+  person = {
+    givenName: 'Vasilis',
+    surName: 'Kalomenidis',
+    age: 30,
+    email: 'vasiliskalomenidis#gmail.com'
+  }
 }
