@@ -22,5 +22,5 @@ export class AppComponent {
     address: 'Athens, Greece'
 }
   
-  }
+}
 
